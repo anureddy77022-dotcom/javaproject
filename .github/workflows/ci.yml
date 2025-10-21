@@ -38,7 +38,7 @@ jobs:
       with:
         image: anusha404/javaprac
         registry: docker.io
-        username: ${{ secrets.USERNAME }}
+        username: ${{ secrets.USER_NAME }}
         password: ${{ secrets.PASSWORD }}
   
 
